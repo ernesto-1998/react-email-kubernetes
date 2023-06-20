@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Login.css"
 
 function Login(){
@@ -16,7 +17,7 @@ function Login(){
                     <button type="submit" className="btn"><span>Enviar</span></button>
                 </div>
                 <div className="register">
-                    <span>No tienes cuenta...</span> <a href="/signup">Crea tu cuenta!</a>
+                    <span>No tienes cuenta...</span> <Link to={`/signup`}>Crea tu cuenta!</Link>
                 </div>
             </form>
         </section>
