@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yanone+Kaffeesatz&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -17,8 +19,6 @@ a {
   --third-color: #EA906C;
   --fourth-color: #EEE2DE;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yanone+Kaffeesatz&display=swap');
 
 body {
   background-color: var(--fourth-color)
